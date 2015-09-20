@@ -8,7 +8,8 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        android:paddingBottom="@dimen/activity_vertical_margin">
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        >
 
 
         <TextView
@@ -18,6 +19,11 @@
             android:lines="50"
             android:textStyle="normal"
             android:id="@+id/txt_lista_cerveja"
-            android:text="@string/txt_lista_cervejas" />
+            android:text="@string/txt_lista_cervejas"
+            android:textColor="#FF0022"/>
+          <!--android:background="#110022"  só muda o fundo do texto-->
+
+
+
     </LinearLayout>
 </ScrollView>
